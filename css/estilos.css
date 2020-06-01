@@ -1,0 +1,273 @@
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: black;    
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: #2D9EF7;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+    
+}
+header
+{
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+.imglogo
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logo
+{
+    width: 20%;
+    margin-top: 80px;
+}
+.imgmenu
+{
+    width: 7%;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.menu
+{
+    font-size: 25px;
+    position: fixed;
+    top: 30px;
+    left: 440px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.menu a:hover
+{
+    color:black;
+    transition: ease-out 1s;
+}
+.divtexto1
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+main
+{
+    margin: auto;
+    width: 80%;
+}
+section
+{
+    margin-top: 50px;
+}
+h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+.sobremi
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+p a
+{
+    text-decoration: none;
+}
+.divfotosobremi
+{
+    width: 80%;    
+}
+.divparrafosobremi p
+{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Marcellus SC', serif;
+
+}
+.principal
+{
+    width: 100%;
+}
+.divparrafosobremi
+{
+    width: 70%;
+    text-align: center;
+}
+.trabajos
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height: 250px;
+}
+.trabajo
+{
+    width: 15%;
+}
+
+.foto
+{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.foto:hover
+{
+    padding: 50px 0px 0px 0px;
+}
+footer
+{
+    background: linear-gradient(black, black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px;
+    margin-top: 0px;
+}
+.pienombre
+{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+h3
+{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0px;
+
+}
+h3+p
+{
+    font-size: 20px;
+    margin: 0px;
+}
+.media
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.icon
+{
+    display: inline-block;
+    margin-left: 20px;
+    width: 10%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.icon:hover
+{
+    background: white;
+    color: black;
+}
+.icon i
+{
+    font-size: 30px;
+    line-height: 60px;
+}
+.linea
+{
+    background: white;
+    height: 2px;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    .logo
+    {
+        width: 40%;
+
+    }
+    .imgmenu
+    {
+        width: 10%;
+    }
+    .menu
+    {
+        font-size: 12px;
+        position: fixed;
+        top: 15px;
+        left: 70px;
+    }
+    .divfotosobremi
+    {
+        width: 100%;    
+    }
+    .divparrafosobremi
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .trabajo
+    {
+        width: 20%;
+    }
+    .pienombre
+    {
+        text-align: center;
+        width: 100%;
+    }
+    .icon
+    {
+        width: 30%;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .media
+    {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .trabajos
+    {
+        height: 150px;
+    }
+}
+
+

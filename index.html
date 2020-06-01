@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Is</title>
+    <link REL="StyleSheet" HREF="css/estilos.css" TYPE="text/css" MEDIA="screen">
+    <link rel="icon" type="imagen/png" href="imagenes/logo2.png">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="widht=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minmun-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka+One&family=Marcellus+SC&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $("document").ready(function()					
+        {
+            $(".menu").hide();
+            $(".imgmenu").click(function()					
+            {				
+                $(".menu").show(); 
+            });
+            $(".menu").click(function()					
+            {				
+                $(".menu").hide();               
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <header id="inicio">
+        <div class="imglogo">
+            <img src="imagenes/logo2.png" alt="" class="logo">
+        </div>
+                    
+        <div class="divtexto1">
+            <h1>DISEÑADOR WEB</h1>
+            <p class="texto1">Diseñamos tus sueños</p>
+        </div>
+    </header>
+     <div class="hambuguer">
+        <img src="imagenes/menu.png" alt="" class="imgmenu">
+        <nav class="menu">
+            <a href="#inicio">INICIO</a>
+            <a href="#sobremi">SOBRE MI</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+    </div>
+    <main>
+        <h2 id="sobremi">ISRAEL TOAQUISA MÉNDEZ</h2>
+        <section class="sobremi" >
+            
+            <div class="divfotosobremi">
+                <img class="principal" src="imagenes/principal.png" alt="diseñador">
+            </div>
+            <div class="divparrafosobremi">
+                <p>
+                    Mi nombre es Israel Toaquisa, actualmente realizo el Grado de Ingeniería 
+                    Informática en la Universidad de Murcia. Me considero una persona 
+                    <a target="_blank" href="https://isratome.github.io/istotech/">emprededora</a>, apasionado por mi trabajo, responsable y con muchas ganas de trabajar, 
+                    soy muy curioso me gusta aprender cosas nuevas, es por ello que decidí aprender Diseño 
+                    Web ya que es una profesión cada vez más demandada en los tiempos actuales.
+                    <br><br>
+                    Realicé el curso de “CONFECCIÓN Y PUBLICACIÓN DE PÁGINAS WEB” en el cual he aprendido a dominar HTML, CSS, 
+                    JavaScript, WordPress y PhotoShop. Aún estoy en mis primeros pasos, se que me queda mucho por aprender, 
+                    poco a poco voy aprendiendo y abriéndome camino en esta profesión. 
+                </p>
+            </div>
+        </section>
+        
+        <section class="trabajos" id="trabajos">
+            <div class="trabajo">
+                <img class="foto" src="imagenes/html5.png" alt="html">
+            </div>
+            <div class="trabajo">
+                <img class="foto" src="imagenes/css.png" alt="css">
+            </div>
+            <div class="trabajo">
+                <img class="foto" src="imagenes/js.png" alt="js">
+            </div>
+            <div class="trabajo">
+                <img class="foto" src="imagenes/wp.png" alt="wp">
+            </div>
+            <div class="trabajo">
+                <img class="foto" src="imagenes/ps.png" alt="ps">
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="pienombre">
+            <h3>Israel Toaquisa</h3>
+            <p>Diseñamos tus sueños</p>
+        </div>
+        <div class="media">
+            <a href="https://wa.me/633606401" target="_blank" class="icon">
+                <i class='bx bxl-whatsapp' ></i>
+            </a>
+            <a href="mailto:israeltoaquisa@gmial.com" class="icon">
+                <i class='bx bx-envelope-open'></i>
+            </a>
+        </div>
+        <div class="linea">
+        </div>  
+    </footer>   
+</body>
+</html>
